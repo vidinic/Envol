@@ -5,6 +5,10 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    font-family: Lobster, cursive;
+    font-size: 20px;
+}
 .container {
     width: 100%;
 }
@@ -74,10 +78,6 @@ body {
     text-decoration: none;
     font-family: 'Courgette', cursive;
     font-size: larger;
-    -webkit-transition: color .6s ease-in;
-    -moz-transition: color .6s ease-in;
-    -o-transition: color .6s ease-in;
-    transition: color .6s ease-in;
 }
 
 #nav a:hover{
@@ -102,14 +102,51 @@ body {
 }
 
 .flex-item {
-    font-family: 'Courgette', cursive ;
+    font-family: 'Kalam', cursive;
     font-size: 30px;
-    background-color: #5f8dd3;
     width: 100%;
     height: 300px;
     margin: 10px;
     text-align: center;
-    box-shadow: 10px 10px 5px #888888;
+    color: #ffe478;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #5f8dd3;
+}
+
+/* bouton haut de page */
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+    color: white;
+    background-color: #3a3f51;
+    border: 1px solid #3a3f51;
+    font-size: 20px;
+    text-align: center;
+    line-height: 37px;
+}
+
+.scrollup:hover {
+    color: white;
+}
+
+img.img_moi {
+    border-radius: 50%;
 }
 
 
+
+
+.navbar-brand {
+    float: left;
+}

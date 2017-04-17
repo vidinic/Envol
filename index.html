@@ -2,10 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <base href="http://phpstorm.localhost/test/">
+    <!--<base href="http://192.168.50.185/test/"> -->
     <title>Envol-Crea</title>
     <link rel="shortcut icon" href="img/logo_V.png">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
 
 
 </head>
@@ -14,6 +17,7 @@
 <nav>
     <div class="navbar-fixed">
         <ul id="nav">
+            <a class="navbar-brand" href="#"><img src="img/logo_nav.png" alt="logo">Envol-Créa</a>
             <li><a class="js-scrollTo" href="#slide1">Accueil</a></li>
             <li><a class="js-scrollTo" href="#slide2">Services</a></li>
             <li><a class="js-scrollTo" href="#slide3">Contact</a></li>
@@ -37,9 +41,24 @@
     <div id="slide2">
         <div class="slide_inside">
             <div class="flex-container">
-                <div class="flex-item">Développement</div>
-                <div class="flex-item">Compétences</div>
-                <div class="flex-item">Prestations</div>
+                <div class="flex-item">Développement
+                    <p>Besoin de visibilité sur le web? Nous vous proposons la création de votre site en vous
+                        accompagnant
+                        dans la mise en place de votre projet et en vous apportant une solution adaptée à vos
+                        besoins.</p>
+                </div>
+                <div class="flex-item">Compétences
+                    <p>Wordpress</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>PHP</p>
+                    <p>Bootstrap</p>
+                    <p>Materialize</p>
+                </div>
+                <div class="flex-item">Prestations
+                    <p>Nous nous occupons de tout. Création du nom de domaine, hébergement, maintenance. N'hésitez
+                        pas à me contacter pour en discuter et faire vivre votre projet.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -49,15 +68,26 @@
 <div class="container">
     <div id="slide3">
         <div class="slide_inside">
-            <h2>CONTACT</h2>
-
+            <div class="flex-container">
+                <div class="flex-item">
+                    <img src="img/pauline vidinic.png" class="img_moi" alt="photo">
+                </div>
+                <div class="flex-item">
+                    <ul>
+                        <li>Contact:</li>
+                        <li>VIDINIC Pauline</li>
+                        <li>07.77.84.93.00</li>
+                        <a href="mailto:">envolcrea50@gmail.com</a>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div> <!-- fin slide3 -->
 <!-- footer -->
 <div class="container">
     <div class="footer" id="footer">
-        © 2017 Copyright <a class="purple-text" href="#">EnvolCrea</a>
+        © 2017 Copyright<a class="purple-text" href="#">Envol-Crea</a>
     </div>
 </div>
 <!-- fin footer -->
@@ -65,5 +95,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="custom.js"></script>
+<a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-up"></i></a>
 </body>
 </html>
